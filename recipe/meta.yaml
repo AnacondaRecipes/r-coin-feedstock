@@ -10,8 +10,8 @@ package:
 source:
   fn: coin_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/coin_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/coin/coin_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/coin_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/coin/coin_{{ version }}.tar.gz
   sha256: d518065d3e1eb00121cb4e0200e1e4ae6b68eca6e249afc38bbffa35d24105bb
 
 
